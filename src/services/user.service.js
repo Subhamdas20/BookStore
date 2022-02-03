@@ -29,13 +29,9 @@ export const loginUser = async (req, res) => {
       return new Promise((resolve, reject) => {
         resolve(
           {
-            userId: userData._id,
-            firstname: userData.firstname,
-            lastname: userData.lastname,
-            email: userData.email,
-            createdAt: userData.createdAt,
-            success: true,
-            token: token
+            "success": true,
+            "message": "please verify your account",
+            "result": null
           }
         )
       })

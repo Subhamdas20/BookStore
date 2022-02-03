@@ -46,7 +46,7 @@ import * as UserService from '../services/user.service';
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: ' User Login successfully'
+        
       });
     }
     else {
