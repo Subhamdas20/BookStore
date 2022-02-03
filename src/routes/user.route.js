@@ -19,4 +19,7 @@ router.post('/addproduct',userAuth,addProducts)
 router.post('/add_cart_item',userAuth,cartController.addToCart)
 router.put('/cart_item',userAuth,cartController.updateCart)
 router.delete('/remove_cart_item',userAuth,cartController.removeCartItem)
+router.get('/get_cart_item',userAuth,cartController.getCartItem)
+
+//route for wishlist
 export default router;

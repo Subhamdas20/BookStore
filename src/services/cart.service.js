@@ -40,3 +40,8 @@ export const removeCartItems = async (req) => {
     let cartData = await cartModel.deleteMany({ user_id: req.data.id, product_id : req.product_id });
     return cartData;
 };
+
+export const getCartItems = async (req) => {
+    let cartData = await cartModel.find({ user_id: req.data.id });
+    return cartData;
+};

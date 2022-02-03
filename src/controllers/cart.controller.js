@@ -69,3 +69,26 @@ export const addToCart = async (req, res, next) => {
      next(error);
    }
  };
+
+ export const getCartItem = async (req, res, next) => {
+    try {
+      const data = await cart.getCartItems(req.body, res);
+      if (data.length) {
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Cart items found'
+        });
+      }
+      else  {
+        res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          data: "",
+          message: 'Cart empty'
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
+  
+  };
