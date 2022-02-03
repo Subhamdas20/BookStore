@@ -16,3 +16,246 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T0
 info: Connected to the database. {"timestamp":"2022-02-03T04:21:55.790Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:28:25.016Z"}
 info: Connected to the database. {"timestamp":"2022-02-03T04:28:25.034Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:31:56.992Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:31:57.011Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:32:02.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:32:02.965Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:32:07.833Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:32:07.855Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:32:30.936Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:32:30.992Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:32:48.178Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:32:48.235Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:33:02.368Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:33:02.408Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:33:13.664Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:33:13.686Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:35:37.032Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:35:37.051Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:35:43.382Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:35:43.399Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/user.service.js:5:29)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:36:07.214Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:36:32.187Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:36:32.204Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:36:47.766Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:36:47.786Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (E:\cfp\Book-store\book-store\node_modules\bcrypt\bcrypt.js:137:17)
+    at E:\cfp\Book-store\book-store\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (E:\cfp\Book-store\book-store\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (E:\cfp\Book-store\book-store\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/user.service.js:9:39)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:36:53.071Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:37:46.989Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:38:45.309Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:39:05.222Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:39:05.244Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:39:06.228Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:39:30.055Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:39:39.963Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:39:39.987Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:40:30.182Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:40:30.204Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:40:36.724Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:40:36.744Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:40:41.824Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:40:41.845Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:40:51.300Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:40:51.318Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:44:37.503Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:44:37.523Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:44:49.466Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:44:49.486Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:44:57.196Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:44:57.219Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:45:20.708Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:45:20.734Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:45:24.987Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:45:25.036Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:46:21.734Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:46:21.753Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:46:29.777Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:46:29.794Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:46:35.960Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:46:35.977Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:47:11.401Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:47:11.418Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:47:15.652Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:47:15.674Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:47:22.299Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:47:22.320Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).phoneNumber is not a function
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:8:26)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:341:12)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:47:12) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:47:22.792Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).phoneNumber is not a function
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:8:26)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:341:12)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:47:12) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:48:37.426Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).phoneNumber is not a function
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:8:26)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:341:12)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:47:12) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:48:38.835Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:49:04.701Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:49:04.721Z"}
+error: 
+    status - 500 
+    message - Error: "phone" is not allowed
+    at new exports.ValidationError (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:49:06.115Z"}
+error: 
+    status - 500 
+    message - Error: "phone" is not allowed
+    at new exports.ValidationError (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\Book-store\book-store\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:49:41.518Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:49:56.116Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:49:56.136Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:50:13.899Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:50:13.915Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at registerValidator (E:\cfp\Book-store\book-store\src\validators\/user.validator.js:8:13)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\cfp\Book-store\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\cfp\Book-store\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:341:12)
+    at next (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\cfp\Book-store\book-store\node_modules\express\lib\router\index.js:47:12) 
+    url - /bookstore_user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T04:50:14.806Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T04:50:30.401Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T04:50:30.419Z"}

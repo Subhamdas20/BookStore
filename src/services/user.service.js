@@ -1,5 +1,5 @@
 import User from '../models/user.model';
-
+import bcrypt from 'bcrypt'
 
 
 export const registerUser = async (req, res) => {
@@ -8,10 +8,10 @@ export const registerUser = async (req, res) => {
   if (!userData.length) {
     const passwordHash = await bcrypt.hash(req.password, 10)
     let newUser = new User({
-      firstname: req.firstname,
-      lastname: req.lastname,
+      fullname: req.fullname,
       email: req.email,
-      password: passwordHash
+      password: passwordHash,
+      phone:req.phone
     })
     return await newUser.save()
   }

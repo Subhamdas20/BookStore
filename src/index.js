@@ -29,7 +29,7 @@ app.use(morgan('combined', { stream: logStream }));
 
 database();
 
-app.use(`/api/${api_version}`, routes());
+app.use(`/`, routes());
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
