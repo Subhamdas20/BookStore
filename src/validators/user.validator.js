@@ -16,3 +16,19 @@ export const registerValidator = (req, res, next) => {
     next();
   }
 }
+
+
+export const loginValidator = (req, res, next) => {
+  const validateLogin = Joi.object({
+    email: Joi.string().email().required().trim(true),
+    password: Joi.string().min(2).max(10).required().trim(true)
+  });
+  const { error, value } = validateLogin.validate(req.body);
+  
+  if (error) {
+    next(error);
+  } else {
+    req.validatedBody = value;
+    next();
+  }
+}

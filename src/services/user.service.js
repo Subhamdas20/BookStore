@@ -1,6 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt'
-
+import * as jwt from 'jsonwebtoken';
 
 export const registerUser = async (req, res) => {
 
@@ -18,41 +18,46 @@ export const registerUser = async (req, res) => {
 
 };
 
-
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
-
-//create new user
-export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
-};
-
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
+export const loginUser = async (req, res) => {
+ 
+  let userData = await User.findOne({ email: req.email });
+  if (userData) {
+    let passwordVerify = await bcrypt.compare(req.password, userData.password)
+    if (passwordVerify) {
+      const payload = { id: userData._id, email: userData.email }
+      const token = jwt.sign(payload, process.env.TOKEN_SECRET, { expiresIn: "1d" })
+      return new Promise((resolve, reject) => {
+        resolve(
+          {
+            userId: userData._id,
+            firstname: userData.firstname,
+            lastname: userData.lastname,
+            email: userData.email,
+            createdAt: userData.createdAt,
+            success: true,
+            token: token
+          }
+        )
+      })
     }
-  );
-  return data;
-};
+    else {
+      return new Promise((resolve, reject) => {
+        resolve({
+          success: false,
+          message: "Wrong Password",
+          status:401
+        })
+      })
+    }
+  }
+  else {
+    return new Promise((resolve, reject) => {
+      resolve({
+        success: false,
+        message: "Email not found!! Register first",
+        status:404
+      })
+    })
+  }
+}
 
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
-
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
-  return data;
-};

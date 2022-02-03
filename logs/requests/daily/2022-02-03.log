@@ -40,3 +40,19 @@ info: ::ffff:127.0.0.1 - - [03/Feb/2022:04:50:31 +0000] "POST /bookstore_user/re
 
 info: ::ffff:127.0.0.1 - - [03/Feb/2022:04:50:39 +0000] "POST /bookstore_user/register HTTP/1.1" 201 329 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:07:03 +0000] "GET /bookstore_user/register HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:07:11 +0000] "GET /bookstore_user/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:07:49 +0000] "POST /bookstore_user/login HTTP/1.1" 500 53 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:08:34 +0000] "POST /bookstore_user/login HTTP/1.1" 500 71 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:09:26 +0000] "POST /bookstore_user/login HTTP/1.1" 500 71 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:09:28 +0000] "POST /bookstore_user/login HTTP/1.1" 500 71 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:09:30 +0000] "POST /bookstore_user/login HTTP/1.1" 500 71 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:05:09:39 +0000] "POST /bookstore_user/login HTTP/1.1" 200 395 "-" "Thunder Client (https://www.thunderclient.com)"
+
