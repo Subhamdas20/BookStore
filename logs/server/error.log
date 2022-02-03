@@ -1471,3 +1471,60 @@ error:
     method - PUT 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-03T15:08:19.148Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartModel is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/wishlist.service.js:10:17)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_wishlist_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:43:05.272Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartModel is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/wishlist.service.js:10:17)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_wishlist_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:43:08.290Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartModel is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/wishlist.service.js:26:36)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removewishlistItems (E:\cfp\Book-store\book-store\src\services\/wishlist.service.js:26:33) 
+    url - /bookstore_user/remove_wishlist_item 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:52:39.846Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_wishlist_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:53:59.834Z"}

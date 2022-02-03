@@ -4,6 +4,7 @@ import { loginValidator, registerValidator } from '../validators/user.validator'
 import { userAuth } from '../middlewares/auth.middleware';
 import { getProduct ,addProducts } from '../controllers/product.controller';
 import * as cartController from '../controllers/cart.controller'
+import * as wishlistController from '../controllers/wishlist.controller'
 
 const router = express.Router();
 
@@ -22,5 +23,9 @@ router.delete('/remove_cart_item',userAuth,cartController.removeCartItem)
 router.get('/get_cart_item',userAuth,cartController.getCartItem)
 
 //route for wishlist
+router.post('/add_wishlist_item',userAuth,wishlistController.addToWishList)
+router.delete('/remove_wishlist_item',userAuth,wishlistController.removewishlistItem )
+router.get('/get_wishlist_item',userAuth,wishlistController.getWishListItems)
+
 
 export default router;

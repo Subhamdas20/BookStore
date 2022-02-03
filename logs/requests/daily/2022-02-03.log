@@ -352,3 +352,63 @@ info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:14:44 +0000] "POST /bookstore_user/ad
 
 info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:14:54 +0000] "POST /bookstore_user/add_cart_item HTTP/1.1" 201 87 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:42:24 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 406 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:42:26 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 87 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:42:28 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 87 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:42:29 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 87 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:43:05 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 500 59 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:43:08 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 500 59 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:46:22 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 406 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:46:24 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:46:26 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:46:26 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:46:27 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:52:39 +0000] "DELETE /bookstore_user/remove_wishlist_item HTTP/1.1" 500 59 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:06 +0000] "DELETE /bookstore_user/remove_wishlist_item HTTP/1.1" 200 82 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:38 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 406 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:39 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:39 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:56 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 478 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:57 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:57 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:53:59 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:54:05 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 200 60 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:15:54:15 +0000] "POST /bookstore_user/add_wishlist_item HTTP/1.1" 201 477 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:01:03 +0000] "GET /bookstore_user/get_cart_item HTTP/1.1" 200 1160 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:02:03 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1237 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:02:05 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1237 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:02:10 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1237 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:03:08 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1241 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:03:18 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1241 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:04:16 +0000] "GET /bookstore_user/get_cart_item HTTP/1.1" 200 1160 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:04:27 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1241 "-" "Thunder Client (https://www.thunderclient.com)"
+

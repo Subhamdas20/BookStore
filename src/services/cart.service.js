@@ -4,12 +4,10 @@ import Books from "../models/product.model";
 
 export const addToCart = async (req, res) => {
     let productData = await Books.find({ _id: req._id });
-    // console.log(productData);
     if (productData) {
         let productincart = await cartModel.findOne({ product_id: productData[0]._id })
-        if (!productincart) {
-            
-        let newEmp = new cartModel({
+        if (!productincart) { 
+        let newCart = new cartModel({
             bookName: productData[0].bookName,
             description: productData[0].description,
             author: productData[0].author,
@@ -19,14 +17,11 @@ export const addToCart = async (req, res) => {
             user_id: req.data.id,
             product_id: productData[0]._id
         })
-        return await newEmp.save()}
-    
+        return await newCart.save()}
     else {
         console.log(productincart.quantity);
         return cartModel.updateOne({product_id: req._id },{$set : { quantity: (productincart.quantity + 1) }})
-    }
-}
-
+    }}
 }
 
 

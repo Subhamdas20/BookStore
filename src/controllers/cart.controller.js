@@ -19,7 +19,7 @@ export const addToCart = async (req, res, next) => {
         });
       }
     } catch (error) {
-        res.status(404).json(error)
+        
       next(error);
     }
   };
@@ -42,7 +42,7 @@ export const addToCart = async (req, res, next) => {
         });
       }
     } catch (error) {
-        res.status(404).json(error)
+       
       next(error);
     }
   };
