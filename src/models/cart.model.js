@@ -15,16 +15,13 @@ const cartSchema = new Schema(
         type: String,
         required: true
       },
-      category:{
-        type : String,
-        required:true
-      },
+     
       price:{
         type : String,
         required:true
       },
       quantity:{
-          type: String,
+          type: Number,
           required : true
       },
       user_Email:{

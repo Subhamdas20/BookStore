@@ -1345,3 +1345,129 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-03T10:54:52.257Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:11:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:36:34.541Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:11:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:37:27.393Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:11:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:40:14.821Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:12:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:41:06.271Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:12:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:41:20.600Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:12:25)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:42:27.859Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:21)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:48:18.791Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartQuantity is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:26:21)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T14:48:57.592Z"}
+error: 
+    status - 500 
+    message - ReferenceError: employeeData is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:44:16)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/cart_item 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T15:08:19.148Z"}

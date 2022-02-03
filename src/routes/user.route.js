@@ -22,4 +22,5 @@ router.delete('/remove_cart_item',userAuth,cartController.removeCartItem)
 router.get('/get_cart_item',userAuth,cartController.getCartItem)
 
 //route for wishlist
+
 export default router;

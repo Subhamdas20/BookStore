@@ -1,7 +1,6 @@
 import  Books  from "../models/product.model";
 
 export const addProduct = async (req, res) => {
-    
     let newBook = new Books({
         bookName : req.bookName,
         description:req.description,
@@ -10,11 +9,9 @@ export const addProduct = async (req, res) => {
         price: req.price
     })
     return await newBook.save()
-   
 };
 
 export const getProduct = async (req) => {
-    
     let productData = await Books.find({ _id: req._id});
     return productData;
 };
