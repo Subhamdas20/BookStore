@@ -1006,3 +1006,304 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-03T09:18:41.818Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Books is not defined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:6:26)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\cfp\Book-store\book-store\src\services\/cart.service.js:6:23) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:40:38.799Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:41:24.754Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:42:19.318Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:42:41.914Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:43:16.278Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2782:32)
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\document.js:2574:17
+    at E:\cfp\Book-store\book-store\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:43:52.513Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:47:12.307Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'bookName' of undefined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:9:38)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:47:26.098Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:50:16.599Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:51:09.166Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /bookstore_user/addproduct 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-03T09:55:42.788Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\Book-store\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /bookstore_user/add_cart_item 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T09:58:28.640Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /bookstore_user/addproduct 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-03T10:16:51.447Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Emp is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:27)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateCart (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:24) 
+    url - /bookstore_user/cart_item 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:22:48.557Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Emp is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:27)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateCart (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:24) 
+    url - /bookstore_user/cart_item 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:23:09.759Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Emp is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:27)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateCart (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:24) 
+    url - /bookstore_user/cart_item 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:24:02.842Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /bookstore_user/cart_item 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-03T10:24:34.676Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Emp is not defined
+    at _callee2$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:27)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateCart (E:\cfp\Book-store\book-store\src\services\/cart.service.js:25:24) 
+    url - /bookstore_user/cart_item 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:24:41.693Z"}
+error: 
+    status - 500 
+    message - ReferenceError: EmployeeService is not defined
+    at _callee3$ (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:51:33)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at removeCartItem (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:51:30) 
+    url - /bookstore_user/remove_cart_item 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:38:58.415Z"}
+error: 
+    status - 500 
+    message - ReferenceError: EmployeeService is not defined
+    at _callee3$ (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:51:33)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at removeCartItem (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:51:30) 
+    url - /bookstore_user/remove_cart_item 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:39:02.321Z"}
+error: 
+    status - 500 
+    message - TypeError: cart.removeCartItem is not a function
+    at _callee3$ (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:53:30)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at removeCartItem (E:\cfp\Book-store\book-store\src\controllers\/cart.controller.js:51:30) 
+    url - /bookstore_user/remove_cart_item 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:39:43.249Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart.default.findanddeleteOne is not a function
+    at _callee3$ (E:\cfp\Book-store\book-store\src\services\/cart.service.js:40:36)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeCartItems (E:\cfp\Book-store\book-store\src\services\/cart.service.js:39:29) 
+    url - /bookstore_user/remove_cart_item 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T10:41:54.938Z"}

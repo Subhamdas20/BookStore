@@ -14,7 +14,7 @@ export const addProduct = async (req, res) => {
 };
 
 export const getProduct = async (req) => {
-    console.log(req);
-    let employeeData = await Books.find({ _id: req._id});
-    return employeeData;
+    
+    let productData = await Books.find({ _id: req._id});
+    return productData;
 };

@@ -26,6 +26,18 @@ const cartSchema = new Schema(
       quantity:{
           type: String,
           required : true
+      },
+      user_Email:{
+          type : String,
+          required: true
+      },
+      user_id:{
+          type:String,
+          required: true
+      },
+      product_id:{
+          type : String,
+          required: true
       }
     },
   {

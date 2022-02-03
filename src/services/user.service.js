@@ -30,8 +30,9 @@ export const loginUser = async (req, res) => {
         resolve(
           {
             "success": true,
-            "message": "please verify your account",
-            "result": null
+            "message": "Login sucess",
+            "result": null,
+            "token": token
           }
         )
       })
