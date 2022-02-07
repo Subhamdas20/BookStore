@@ -412,3 +412,23 @@ info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:04:16 +0000] "GET /bookstore_user/get
 
 info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:04:27 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1241 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:24:46 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:27:29 +0000] "GET /bookstore_user/get_wishlist_item HTTP/1.1" 200 1241 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:27:32 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:27:34 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:27:34 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:29:33 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:32:42 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:32:43 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:35:18 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2022:16:35:41 +0000] "POST /bookstore_user/addproduct HTTP/1.1" 500 136 "-" "Thunder Client (https://www.thunderclient.com)"
+

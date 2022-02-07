@@ -1528,3 +1528,83 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-03T15:53:59.834Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905486199.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:24:46.203Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905652469.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:32.473Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905654106.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:34.107Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905654699.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:34.701Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905773940.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:29:33.944Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905962638.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:32:42.639Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905963625.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:32:43.625Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643906118220.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:35:18.224Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643906141597.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:35:41.598Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'addressType' of undefined
+    at _callee$ (E:\cfp\Book-store\book-store\src\services\/customerDetails.service.js:6:35)
+    at tryCatch (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\cfp\Book-store\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\cfp\Book-store\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.editCustomerDetails (E:\cfp\Book-store\book-store\src\services\/customerDetails.service.js:4:33) 
+    url - /bookstore_user/customer_details 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:24:47.741Z"}

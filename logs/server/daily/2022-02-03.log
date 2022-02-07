@@ -2690,3 +2690,90 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T1
 info: Connected to the database. {"timestamp":"2022-02-03T16:03:03.528Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:04:56.388Z"}
 info: Connected to the database. {"timestamp":"2022-02-03T16:04:56.402Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:09:39.515Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:09:39.529Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:09:58.908Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:09:58.925Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:16:32.514Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:16:32.535Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:17:51.198Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:17:51.215Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:17:54.863Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:17:54.878Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:18:08.776Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:18:08.791Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:21:55.904Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:21:55.924Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:22:28.135Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:22:28.151Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:23:07.315Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:23:07.331Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905486199.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:24:46.203Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905652469.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:32.473Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905654106.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:34.107Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905654699.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:27:34.701Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:29:28.545Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:29:28.558Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905773940.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:29:33.944Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905962638.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:32:42.639Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643905963625.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:32:43.625Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:35:12.771Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:35:12.786Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-03T16:35:15.610Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T16:35:15.625Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643906118220.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:35:18.224Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\cfp\Book-store\book-store\uploads\1643906141597.png' 
+    url - /bookstore_user/addproduct 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-03T16:35:41.598Z"}

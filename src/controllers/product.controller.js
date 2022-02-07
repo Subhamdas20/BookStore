@@ -6,9 +6,7 @@ import HttpStatus from 'http-status-codes';
 
 export const getProduct = async (req, res, next) => {
     try {
-        
       const data = await cart.getProduct(req.body, res);
-     
       if (data.length) {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,

@@ -2,7 +2,7 @@ import * as cart from '../services/cart.service'
 import HttpStatus from 'http-status-codes';
 
 /**
- * Controller to add Product
+ * Controller to add cart
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -25,7 +25,7 @@ export const addToCart = async (req, res, next) => {
   };
 
 /**
- * Controller to update Product quantity
+ * Controller to update cart
 * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next

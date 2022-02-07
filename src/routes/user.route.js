@@ -5,6 +5,8 @@ import { userAuth } from '../middlewares/auth.middleware';
 import { getProduct ,addProducts } from '../controllers/product.controller';
 import * as cartController from '../controllers/cart.controller'
 import * as wishlistController from '../controllers/wishlist.controller'
+import { upload } from '../middlewares/multer';
+import {editCustomerDetails} from '../controllers/customerDetails.controller'
 
 const router = express.Router();
 
@@ -14,9 +16,9 @@ router.post('/login', loginValidator,userController.loginUser);
 
 //route for products
 router.get('/product',getProduct)
-router.post('/addproduct',userAuth,addProducts)
+router.post('/addproduct',upload.single('image'),addProducts)
 
-// route for cart
+// route for cart   
 router.post('/add_cart_item',userAuth,cartController.addToCart)
 router.put('/cart_item',userAuth,cartController.updateCart)
 router.delete('/remove_cart_item',userAuth,cartController.removeCartItem)
@@ -27,5 +29,9 @@ router.post('/add_wishlist_item',userAuth,wishlistController.addToWishList)
 router.delete('/remove_wishlist_item',userAuth,wishlistController.removewishlistItem )
 router.get('/get_wishlist_item',userAuth,wishlistController.getWishListItems)
 
+// route for customer details
+router.post('/customer_details',userAuth,editCustomerDetails)
+
+// route for place order
 
 export default router;

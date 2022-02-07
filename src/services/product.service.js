@@ -1,6 +1,7 @@
 import  Books  from "../models/product.model";
 
 export const addProduct = async (req, res) => {
+
     let newBook = new Books({
         bookName : req.bookName,
         description:req.description,

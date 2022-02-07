@@ -14,7 +14,7 @@ export const addToCart = async (req, res) => {
             price: productData[0].price,
             quantity: 1,
             user_Email: req.data.email,
-            user_id: req.data.id,
+            user_id: req.data.id,            
             product_id: productData[0]._id
         })
         return await newCart.save()}
